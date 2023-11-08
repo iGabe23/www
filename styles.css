@@ -1,3 +1,6 @@
+
+
+
 div {
     background-color: #fafafa; /* Color de fondo similar al de Instagram */
     font-family: Arial, sans-serif;
@@ -14,7 +17,6 @@ div {
     background-color: #fff; /* Fondo blanco del perfil */
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
     max-width: 300px; /* Ancho máximo del perfil */
-    margin: 0 auto; /* Centrar el perfil en la página */
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
