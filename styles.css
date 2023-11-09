@@ -47,14 +47,14 @@ div {
     margin-top: 15px;
   }
   
-  /* Estilo para los números de seguidores, seguidos y publicaciones */
+  /* Estilo para los números de seguidores, etc */
   .profile-stats span {
     font-weight: bold;
     font-size: 16px;
     margin: auto;
   }
   
-  /* Estilo para las etiquetas de seguidores, seguidos y publicaciones */
+  /* Estilo para las etiquetas de seguidores, etc */
   .profile-stats p {
     font-size: 12px;
     color: #999;
