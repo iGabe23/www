@@ -119,7 +119,7 @@ body {
 .home-content h1 {
   position: relative;
   float: left;
-  padding: 15px;
+  padding: 1.5rem;
   border: 1px solid var(--main-border-color);
   font-size: 5.6rem;
   font-weight: 700;
@@ -142,7 +142,7 @@ body {
 
 .home-content .text-animate {
   position: relative;
-  width: 34.7rem;
+  width: 35rem;
 }
 
 .home-content .text-animate h3 {
@@ -153,10 +153,8 @@ body {
 }
 
 .home-content h3 {
-  /* align-content: center;
-  justify-content: center; */
   position: relative;
-  padding: 15px;
+  padding: 1.5rem;
   border: 1px solid var(--main-border-color);
   font-size: 32px;
   font-weight: 700;
@@ -179,7 +177,7 @@ body {
   font-size: 1.6rem;
   margin: 2rem 0 4rem;
   float: left;
-  padding: 15px;
+  padding: 1.5rem;
   border: 1px solid var(--main-border-color);
   width: 75%;
   float: left;
@@ -280,7 +278,7 @@ body {
 .home-sci {
   position: absolute;
   bottom: 4rem;
-  height: 40px;
+  height: 4rem;
   display: flex;
   justify-content: space-between;
 }
@@ -304,8 +302,8 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   background: transparent;
   border: 0.1rem solid var(--main-border-color);
   border-radius: 50%;
@@ -344,12 +342,12 @@ body {
 .home-imgHover {
   content: url(mi-foto2.JPG);
   position: absolute;
-  top: 200px;
-  right: 150px;
-  width: 500px;
+  top: 20rem;
+  right: 25rem;
+  width: 60rem;
   height: 55%;
   background: transparent;
-  border: 2px solid var(--main-border-color);
+  border: 0.2rem solid var(--main-border-color);
   border-radius: 50%;
 }
 
@@ -358,7 +356,7 @@ body {
   opacity: 0.8;
 }
 
-/* keyframe animations */
+/* keyframe main animations */
 
 @keyframes showRight {
   100% {
@@ -372,6 +370,8 @@ body {
   }
 }
 
+/* aboutme slider */
+
 .aboutme {
   background-image: url(assests/backgroundmain.png);
   background-attachment: fixed;
@@ -383,42 +383,145 @@ body {
 }
 
 .slider-container .wrapper {
-  width: 90vw;
-  height: 100vh;
-  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 1);
+  width: 1920px;
+  height: 936px;
+  box-shadow: 1rem 1rem 2rem rgb(138, 134, 134);
   margin: auto;
   overflow: hidden;
 }
 
 .slider-container .wrapper-holder {
   display: grid;
-  grid-template-columns: repeat(4, 100%);
+  grid-template-columns: repeat(3, 100%);
   height: 100%;
   width: 100%;
+  animation: slider 30s ease-in-out infinite;
 }
 
 .slider-container #slider-img-1 {
-  background-image: url();
+  background-image: url(assests/1.jpg);
   background-position: center;
 }
 .slider-container #slider-img-2 {
-  background-image: url();
+  background-image: url(assests/2.jpg);
   background-position: center;
 }
 .slider-container #slider-img-3 {
-  background-image: url();
-  background-position: center;
-}
-.slider-container #slider-img-4 {
-  background-image: url();
+  background-image: url(assests/3.jpg);
   background-position: center;
 }
 
-.slider-container .button-holder .silder-button {
-  background-color: white;
-  width: 1.5rem;
+.slider-container .button-holder .slider-button {
+  background-color: var(--main-text-color);
+  width: 4rem;
   height: 1.5rem;
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
   display: inline-block;
   margin: 0.3rem;
+}
+.slider-container .button-holder {
+  position: absolute;
+  left: 45%;
+  bottom: 0%;
+}
+.slider-button:hover {
+  box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 1);
+}
+
+@keyframes slider {
+  0% {
+    transform: translate(0%);
+  }
+  10% {
+    transform: translate(-100%);
+  }
+  20% {
+    transform: translate(-100%);
+  }
+  30% {
+    transform: translate(-200%);
+  }
+  40% {
+    transform: translate(-200%);
+  }
+  50% {
+    transform: translate(-200%);
+  }
+  60% {
+    transform: translate(-300%);
+  }
+  70% {
+    transform: translate(-300%);
+  }
+  80% {
+    transform: translate(-300%);
+  }
+  90% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
+
+/* education */
+
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: auto;
+  padding-bottom: 5rem;
+}
+
+.education .education-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.education-row .education-column {
+  flex: 1 1 40rem;
+}
+
+.education-column title {
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem 2rem;
+}
+
+.education-column .education-box {
+  border-left: 0.2rem solid var(--main-nav-color);
+}
+
+.education-box .education-content {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.education-content .content {
+  position: relative;
+  padding: 1.5rem;
+  border: 0.2rem solid var(--main-nav-color);
+  border-radius: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.education-content .content .year {
+  font-size: 1.5rem;
+  color: var(--main-nav-color);
+  padding-bottom: 0.5rem;
+}
+
+.education-content .content .year i {
+  padding-right: 0.5rem;
+}
+
+.education-content .content h3 {
+  font-size: 2rem;
+}
+
+.education-content .content p {
+  font-size: 1.6rem;
+  padding-top: 0.5rem;
 }
