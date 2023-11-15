@@ -6,7 +6,7 @@
   --main-text-color: #99755a;
   --main-nav-color: #c5d0ce;
   --second-bg-color: silver;
-  --main-border-color: white;
+  --main-border-color: transparent;
 }
 
 /* Remove scrollbar */
