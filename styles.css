@@ -385,166 +385,6 @@ body {
   opacity: 0.8;
 }
 
-/* responsive */
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width: 321px) and (max-device-width: 480px) {
-  .home-content {
-    font-size: xx-small;
-  }
-  div {
-    font-size: 1rem;
-  }
-  h1 {
-    font-size: 1rem;
-  }
-  h4 {
-    font-size: 0.7rem;
-  }
-  p {
-    font-size: 0.3rem;
-  }
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-  /* Styles */
-  h1 {
-    font-size: 1rem;
-  }
-  h3 {
-    font-size: 0.7rem;
-  }
-  p {
-    font-size: 0.3rem;
-  }
-}
-@media only screen and (max-width: 700px) {
-  h1 {
-    font-size: 1rem;
-  }
-  h3 {
-    font-size: 1rem;
-  }
-  p {
-    font-size: 1rem;
-  }
-  .intro li {
-    font-size: 1rem;
-  }
-}
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  h1 {
-    font-size: 2rem;
-  }
-  h3 {
-    font-size: 1rem;
-  }
-  p {
-    font-size: 1rem;
-  }
-  .intro li {
-    font-size: 1rem;
-  }
-}
-@media only screen and (min-device-width: 768px) and (max-device-width: 1224px) {
-  h1 {
-    font-size: 2rem;
-  }
-  h3 {
-    font-size: 1rem;
-  }
-  p {
-    font-size: 1rem;
-  }
-  .intro li {
-    font-size: 1rem;
-  }
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  h1 {
-    font-size: 2em;
-  }
-  h3 {
-    font-size: 1em;
-  }
-  p {
-    font-size: 1em;
-  }
-  .intro li {
-    font-size: 1em;
-  }
-}
-.icon {
-  margin-top: -30px;
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  h1 {
-    font-size: 2em;
-  }
-  h3 {
-    font-size: 1em;
-  }
-  p {
-    font-size: 1em;
-  }
-  .intro li {
-    font-size: 1em;
-  }
-  .icon {
-    margin-top: 100px;
-  }
-
-  /* Styles */
-}
-@media only screen and (min-width: 724px) and (max-width: 1260px) {
-  h1 {
-    font-size: 5em;
-  }
-  h3 {
-    font-size: 1em;
-  }
-  p {
-    font-size: 1em;
-  }
-  .intro li {
-    font-size: 1em;
-  }
-  .icon {
-    margin-top: 90px;
-  }
-}
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
-  .icon {
-    margin-top: 300px;
-  }
-  p {
-    font-size: 5em;
-  }
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
-  /* Styles */ /* Styles */
-}
-
-/* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min-device-pixel-ratio: 1.5) {
-  /* Styles */
-}
-
 /* keyframe main animations */
 
 @keyframes showRight {
@@ -1179,4 +1019,211 @@ body {
 
 .footer-iconTop a:hover i {
   color: var(--main-bg-color);
+}
+
+/* responsive */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) and (max-device-width: 480px) {
+  .btn-box {
+    font-size: xx-small;
+  }
+  div {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.7rem;
+  }
+  p {
+    font-size: 0.3rem;
+  }
+}
+.bit {
+  font-size: xx-small;
+}
+div {
+  font-size: 1rem;
+}
+h1 {
+  font-size: 1rem;
+}
+h4 {
+  font-size: 0.7rem;
+}
+p {
+  font-size: 0.3rem;
+}
+
+.skills {
+  font-size: xx-small;
+}
+div {
+  font-size: 1rem;
+}
+h1 {
+  font-size: 1rem;
+}
+h4 {
+  font-size: 0.7rem;
+}
+p {
+  font-size: 0.3rem;
+}
+
+.home-content {
+  font-size: xx-small;
+}
+div {
+  font-size: 1rem;
+}
+h1 {
+  font-size: 1rem;
+}
+h4 {
+  font-size: 0.7rem;
+}
+p {
+  font-size: 0.3rem;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+  h1 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.7rem;
+  }
+  p {
+    font-size: 0.3rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .intro li {
+    font-size: 1rem;
+  }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .intro li {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1224px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .intro li {
+    font-size: 1rem;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  h1 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .intro li {
+    font-size: 1em;
+  }
+}
+.icon {
+  margin-top: -30px;
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  h1 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .intro li {
+    font-size: 1em;
+  }
+  .icon {
+    margin-top: 100px;
+  }
+
+  /* Styles */
+}
+@media only screen and (min-width: 724px) and (max-width: 1260px) {
+  h1 {
+    font-size: 5em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .intro li {
+    font-size: 1em;
+  }
+  .icon {
+    margin-top: 90px;
+  }
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  .icon {
+    margin-top: 300px;
+  }
+  p {
+    font-size: 5em;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */ /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
 }
