@@ -14,7 +14,10 @@
 ::-webkit-scrollbar {
   display: none;
 }
-
+/* atributes */
+.flex {
+  display: flex;
+}
 /* main */
 * {
   margin: 0;
@@ -900,7 +903,9 @@ body {
   height: 5rem;
   z-index: 1;
 }
-
+.btn-git {
+  width: 200px;
+}
 .bit-btn-box .btn {
   position: relative;
   display: inline-flex;
